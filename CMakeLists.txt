@@ -4,7 +4,7 @@
 # For license and copyright information please follow this link:
 # https://github.com/desktop-app/legal/blob/master/LEGAL
 
-add_library(lib_spellcheck STATIC)
+add_library(lib_spellcheck)
 add_library(desktop-app::lib_spellcheck ALIAS lib_spellcheck)
 init_target(lib_spellcheck)
 
